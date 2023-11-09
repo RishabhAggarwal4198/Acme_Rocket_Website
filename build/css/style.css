@@ -800,9 +800,20 @@ video {
   top: 0px;
 }
 
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
 .before\:font-serif::before {
   content: var(--tw-content);
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.before\:text-9xl::before {
+  content: var(--tw-content);
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .before\:text-white::before {
